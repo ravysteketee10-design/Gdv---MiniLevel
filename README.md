@@ -7,7 +7,7 @@ Wat heb ik gemaakt?
 Ik heb een platformer gemaakt waar je 4 coins moet pakken en het parcour goed moet doen.
 
 Screenshot / GIF van je level
- ![status](img/testss.mp4)
+ ![status](img/test.png)
 
 Bewegend object
 void Update() 
