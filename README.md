@@ -7,7 +7,7 @@ Les: GDV Les 6<br>
 Wat heb ik gemaakt?<br>
 Ik heb een platformer gemaakt waar je 4 coins moet pakken en het parcour goed moet doen.<br>
 <br>
-Screenshot / GIF van je level<br>
+Screenshot van je level<br>
  ![status](img/test.png)<br>
 <br>
 Bewegend object<br>
