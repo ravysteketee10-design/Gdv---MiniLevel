@@ -3,13 +3,13 @@ Naam: Ravy Steketee<br>
 Klas: SD1C<br>
 Datum:28-10-26<br>
 Les: GDV Les 6<br>
-
+<br>
 Wat heb ik gemaakt?<br>
 Ik heb een platformer gemaakt waar je 4 coins moet pakken en het parcour goed moet doen.<br>
-
+<br>
 Screenshot / GIF van je level<br>
  ![status](img/test.png)<br>
-
+<br>
 Bewegend object<br>
 void Update() <br>
 { <br>
@@ -17,7 +17,7 @@ Vector3 move = Vector3.right * speed * Input.GetAxis("Horizontal") * Time.deltaT
  transform.position += move; <br>
  Vector3 moveforward = Vector3.forward * speed * Input.GetAxis("Vertical") * Time.deltaTime; <br>
  transform.position += moveforward; <br>
-} 
+} <br>
 Collider of trigger<br>
 private void OnCollisionEnter(Collider other) <br>
 { <br>
@@ -32,7 +32,7 @@ if (other.gameObject.CompareTag("Enemy")) <br>
      Debug.Log($"you took damage, you now have {health} health left."); <br>
      Destroy(other.gameObject); <br>
  } <br>
-
+<br>
 Evaluatie <br>
 <br>
 Wat ging goed? en waarom? <br>
