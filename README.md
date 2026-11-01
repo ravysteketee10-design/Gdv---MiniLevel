@@ -8,10 +8,10 @@ Wat heb ik gemaakt?<br>
 Ik heb een platformer gemaakt waar je 4 coins moet pakken en het parcour goed moet doen.<br>
 <br>
 Screenshot van je level<br>
- ![status](img/test.png)<br>
+ ![status](img/video.mp4)<br>
 <br>
 Bewegend object<br>
-```
+```c#
 void Update() <br>
 { <br>
 Vector3 move = Vector3.right * speed * Input.GetAxis("Horizontal") * Time.deltaTime; <br>
@@ -21,7 +21,7 @@ Vector3 move = Vector3.right * speed * Input.GetAxis("Horizontal") * Time.deltaT
 } <br>
 ```
 Collider of trigger<br>
-```
+```C#
 private void OnCollisionEnter(Collider other) <br>
 { <br>
 	if (other.gameObject.CompareTag("Stucture")){ <br>
@@ -30,7 +30,7 @@ private void OnCollisionEnter(Collider other) <br>
 } <br>
 ```
 Logica met if of switch<br>
-```
+```C#
 if (other.gameObject.CompareTag("Enemy")) <br>
  { <br>
      health -= 1;<br>
