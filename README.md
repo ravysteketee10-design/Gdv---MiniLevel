@@ -18,8 +18,8 @@ Vector3 move = Vector3.right * speed * Input.GetAxis("Horizontal") * Time.deltaT
  transform.position += move; <br>
  Vector3 moveforward = Vector3.forward * speed * Input.GetAxis("Vertical") * Time.deltaTime; <br>
  transform.position += moveforward; <br>
-}
-```<br>
+} ```
+<br>
 Collider of trigger<br>
 ```
 private void OnCollisionEnter(Collider other) <br>
