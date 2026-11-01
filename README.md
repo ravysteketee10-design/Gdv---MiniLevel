@@ -11,7 +11,7 @@ Screenshot van je level<br>
  ![status](img/test.png)<br>
 <br>
 Bewegend object<br>
-```(
+```
 void Update() <br>
 { <br>
 Vector3 move = Vector3.right * speed * Input.GetAxis("Horizontal") * Time.deltaTime; <br>
@@ -19,21 +19,25 @@ Vector3 move = Vector3.right * speed * Input.GetAxis("Horizontal") * Time.deltaT
  Vector3 moveforward = Vector3.forward * speed * Input.GetAxis("Vertical") * Time.deltaTime; <br>
  transform.position += moveforward; <br>
 }
-)```<br>
+```<br>
 Collider of trigger<br>
+```
 private void OnCollisionEnter(Collider other) <br>
 { <br>
 	if (other.gameObject.CompareTag("Stucture")){ <br>
     jumpingtest = true; <br>
 } <br>
 } <br>
+```
 Logica met if of switch<br>
+```
 if (other.gameObject.CompareTag("Enemy")) <br>
  { <br>
      health -= 1;<br>
      Debug.Log($"you took damage, you now have {health} health left."); <br>
      Destroy(other.gameObject); <br>
  } <br>
+ ```
 <br>
 Evaluatie <br>
 <br>
