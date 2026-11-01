@@ -11,13 +11,15 @@ Screenshot van je level<br>
  ![status](img/test.png)<br>
 <br>
 Bewegend object<br>
+```
 void Update() <br>
 { <br>
 Vector3 move = Vector3.right * speed * Input.GetAxis("Horizontal") * Time.deltaTime; <br>
  transform.position += move; <br>
- Vector3 moveforward = Vector3.forward * speed * Input.GetAxis("Vertical") * Time.deltaTime; <br>
+ Vector3 moveforward = Vector3.forward * speed * Input.GetAxis("Vertical") * Time.deltaTime;) <br>
  transform.position += moveforward; <br>
 } <br>
+```
 Collider of trigger<br>
 private void OnCollisionEnter(Collider other) <br>
 { <br>
