@@ -8,9 +8,9 @@ Wat heb ik gemaakt?<br>
 Ik heb een platformer gemaakt waar je 4 coins moet pakken en het parcour goed moet doen.<br>
 <br>
 Videos van mijn level<br>
- ![status](img/video1.gif)<br>
- ![status](img/video2.gif)<br>
- ![status](img/video3.gif)<br>
+ ![Video 1](img/video1.gif)<br>
+ ![Video 2](img/video2.gif)<br>
+ ![Video 3](img/video3.gif)<br>
 <br>
 Bewegend object<br>
 ```c#
