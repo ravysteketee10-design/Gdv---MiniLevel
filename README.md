@@ -10,7 +10,6 @@ Ik heb een platformer gemaakt waar je 4 coins moet pakken en het parcour goed mo
 Videos van mijn level<br>
  ![Video 1](img/Video1.gif)<br>
  ![Video 2](img/Video2.gif)<br>
- ![Video 3](img/Video3.gif)<br>
 <br>
 Bewegend object<br>
 ```c#
